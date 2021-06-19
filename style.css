@@ -1,0 +1,23 @@
+body{text-align:center;}
+canvas{
+    animation-name:animation;
+animation-duration:10s;
+animation-iteration-count:infinite;
+border:1px solid black;
+}
+@keyframes animation{
+    10%{box-shadow: 20px 20px 38px red;}
+    20%{box-shadow: 20px 20px 38px greenyellow;}
+    30%{box-shadow: 20px 20px 38px green;}
+    40%{box-shadow: 20px 20px 38px blue;}
+    50%{box-shadow: 20px 20px 38px black;}
+    60%{box-shadow: 20px 20px 38px grey;}
+    70%{box-shadow: 20px 20px 38px yellow;}
+    80%{box-shadow: 20px 20px 38px navy;}
+    90%{box-shadow: 20px 20px 38px crimson;}
+    100%{box-shadow: 20px 20px 38px red;}
+}
+.btn-success:hover{
+     background-color: lightblue;
+     color:black
+}
